@@ -22,3 +22,4 @@ META.yml
 t/01_compile.t
 t/02_start_perlpad.t
 t/03_newfile_and_save.t
+LICENSE

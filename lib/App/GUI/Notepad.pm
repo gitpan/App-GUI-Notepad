@@ -9,7 +9,7 @@ use App::GUI::Notepad::Frame;
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.01';
+	$VERSION = '0.02';
 }
 
 sub OnInit {
@@ -64,12 +64,18 @@ perform the usual edit functions (Undo, Redo, Cut, Copy and Paste)
 
 =head1 SUPPORT
 
-For comments and to report bugs, contact the maintainer.
+Bugs should B<always> be submitted via the CPAN bug tracker, located at
+
+L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-GUI-Notepad| http://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-GUI-Notepad>
+
+For general comments, contact the author.
+
 
 =head1 AUTHOR
 
-Ben Marsh (maintainer), blm@woodheap.org
-Adam Kennedy cpan@ali.as 
+Ben Marsh E<lt>blm@woodheap.orgE<gt>
+
+Created with the valuable assistance of Adam Kennedy E<lt>cpan@aliasE<gt> 
 
 
 =head1 SEE ALSO

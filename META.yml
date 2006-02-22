@@ -16,4 +16,4 @@ requires:
   File::Spec: 0.80
   Wx: 0.25
   perl: 5.005
-version: 0.01
+version: 0.02
