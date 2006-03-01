@@ -9,7 +9,7 @@ use App::GUI::Notepad::Frame;
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.02';
+	$VERSION = '0.03';
 }
 
 sub OnInit {
@@ -39,8 +39,6 @@ App::GUI::Notepad - A wxPerl-based notepad text editor application
 
 =head1 DESCRIPTION
 
-B<This is ALPHA level code. Currently only tested on Windows XP>
-
 This package implements a wxWindows desktop application which provides the
 ability to do rudimentary text file editing.
 
@@ -66,7 +64,7 @@ perform the usual edit functions (Undo, Redo, Cut, Copy and Paste)
 
 Bugs should B<always> be submitted via the CPAN bug tracker, located at
 
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-GUI-Notepad| http://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-GUI-Notepad>
+L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=App-GUI-Notepad>
 
 For general comments, contact the author.
 
@@ -80,7 +78,7 @@ Created with the valuable assistance of Adam Kennedy E<lt>cpan@aliasE<gt>
 
 =head1 SEE ALSO
 
-L<App::GUI::Notepad::Frame| App::GUI::Notepad::Frame>, L<App::GUI::Notepad::MenuBar| App::GUI::Notepad::MenuBar>
+L<App::GUI::Notepad::Frame>, L<App::GUI::Notepad::MenuBar>
 
 =head1 COPYRIGHT
 
